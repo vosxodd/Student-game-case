@@ -1,7 +1,7 @@
 # Case-study #9
 # Developers:   Aksenov A. (45%),
 #               Soloveychik D. (%),
-#               Labuzov A. (%)
+#               Labuzov A. (43%)
 
 import random
 import time
