@@ -39,7 +39,7 @@ def routine():
         print(stats)
     elif a == "нет":
         stats["Друзья"] -= 1
-        stats["Семья"] -= 1
+        stats["Семья"] += 1
         stats["Деньги"] -= 500
         print(stats)
 
