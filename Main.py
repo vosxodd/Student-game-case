@@ -1,3 +1,8 @@
+# Case-study #9
+# Developers:   Aksenov A. (%),
+#               Soloveychik D. (%),
+#               Labuzov A. (%)
+
 import random
 import time
 
