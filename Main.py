@@ -90,9 +90,11 @@ def posevent(a):
     if a == 4:
         print("Вы нашли чью-то заначку в одном из учебников")
         stats["Деньги"] += 1000
+        print(stats)
     if a == 5:
         print("Вам удалось незаметно списать кр")
         stats["Учёба"] += 1
+        print(stats)
 
 
 def neutevent(a):
@@ -122,10 +124,12 @@ def neutevent(a):
         print("Вы пошли на олимпиаду вместо др друга")
         stats["Учёба"] += 1
         stats["Друзья"] -= 1
+        print(stats)
     if a == 5:
         print("Вы отказали деду, когда он предложил вам выпить самогон")
         stats["Здоровье"] += 1
         stats["Семья"] -= 1
+        print(stats)
 
 
 def event(a, b):
